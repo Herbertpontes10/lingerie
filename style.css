@@ -1,0 +1,104 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  list-style: none;
+  background-image: linear-gradient(
+    rgba(73, 16, 68, 0.633),
+    rgba(121, 77, 101, 0.6)
+  );
+}
+
+header {
+  background-image: linear-gradient(red, yellow);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.container img {
+  width: 250px;
+  height: 150px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 10px 10px;
+  align-items: center;
+}
+
+.container img:hover {
+  border: 3px solid white;
+  cursor: pointer;
+  transition: 3ms;
+}
+
+.nav li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+  margin: 55px;
+  border-radius: 30px;
+}
+.nav li:hover {
+  background-color: white;
+  cursor: pointer;
+  transition: 10ms;
+}
+
+.principal h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.principal p {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.calcinha {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  list-style: none;
+  margin-top: 150px;
+}
+.calcinha p {
+  font-size: 20px;
+  font-style: italic;
+}
+
+.conjunto {
+  width: 450px;
+  border-radius: 20px;
+}
+
+footer {
+  background-color: blueviolet;
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+}
+
+.h3 {
+  text-align: center;
+}
+
+.footercontato li {
+  font-size: 20px;
+  list-style: none;
+  line-height: 40px;
+}
+
+footersociais {
+  display: inline-block;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.redesociais {
+  width: 40px;
+  padding: 15px;
+}
