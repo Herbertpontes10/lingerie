@@ -4,8 +4,7 @@ body {
   list-style: none;
   background-image: linear-gradient(
     rgba(73, 16, 68, 0.633),
-    rgba(121, 77, 101, 0.6)
-  );
+    rgba(121, 77, 101, 0.6));
 }
 
 header {
